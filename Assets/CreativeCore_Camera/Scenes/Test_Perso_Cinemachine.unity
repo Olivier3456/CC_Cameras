@@ -263,15 +263,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73322258}
-  m_LocalRotation: {x: -0.064034216, y: -0.9305697, z: 0.19776155, w: -0.3013802}
-  m_LocalPosition: {x: -7.316304, y: 5.3743415, z: 13.119314}
+  m_LocalRotation: {x: 0.000000030489367, y: -0.122183256, z: 0.0000000037534122, w: 0.9925076}
+  m_LocalPosition: {x: -1.0173893, y: 0.7651205, z: -7.5513325}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1529688447}
   m_Father: {fileID: 1087291180}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.226, y: -179.101, z: -4.689}
 --- !u!114 &73322260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -290,8 +290,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_LookAt: {fileID: 373392599}
+  m_Follow: {fileID: 373392599}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -793,7 +793,7 @@ MonoBehaviour:
   - {fileID: 73322260}
   m_Instructions:
   - m_FullHash: -561110157
-    m_VirtualCamera: {fileID: 0}
+    m_VirtualCamera: {fileID: 814616051}
     m_ActivateAfter: 0
     m_MinDuration: 0
   - m_FullHash: -739893810
@@ -913,6 +913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1529688447}
   - component: {fileID: 1529688448}
+  - component: {fileID: 1529688449}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -947,6 +948,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1529688449
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529688446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1 &1940982931
 GameObject:
   m_ObjectHideFlags: 3
